@@ -3,7 +3,7 @@
 > API backend per applicazione social matching (stile Tinder) sviluppata in team Agile. 
 
 [![Java](https://img.shields.io/badge/Java-24-007396?logo=java)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.0-6DB33F? logo=spring)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.0-6DB33F?logo=spring)](https://spring.io/projects/spring-boot)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql)](https://www.mysql.com/)
 
 ## 🎯 Overview
