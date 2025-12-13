@@ -69,10 +69,10 @@ MySQL Database
 
 ## 👨‍💻 Author
 
-**Stefano D'Incà** - [GitHub](https://github.com/Byrontec2018) | [LinkedIn](https://www.linkedin.com/in/stefanodinca/)
-**Andrea Benelli** - [GitHub](https://github.com/MrRinooooooo)
-**Emiliano Cerchiaro** - [GitHub](https://github.com/Icon75)
-**Marco Ambrogio** - [GitHub](https://github.com/PyotrWrangel)
+**Stefano D'Incà** - [GitHub](https://github.com/Byrontec2018) | [LinkedIn](https://www.linkedin.com/in/stefanodinca/)  
+**Andrea Benelli** - [GitHub](https://github.com/MrRinooooooo)  
+**Emiliano Cerchiaro** - [GitHub](https://github.com/Icon75)  
+**Marco Ambrogio** - [GitHub](https://github.com/PyotrWrangel)  
 **Fabrizio Faiola** - [GitHub](https://github.com/briziobriziolo)
 
 
