@@ -67,7 +67,7 @@ Repositories (Spring Data JPA)
 MySQL Database
 ```
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
 **Stefano D'Incà** - [GitHub](https://github.com/Byrontec2018) | [LinkedIn](https://www.linkedin.com/in/stefanodinca/)  
 **Andrea Benelli** - [GitHub](https://github.com/MrRinooooooo)  
