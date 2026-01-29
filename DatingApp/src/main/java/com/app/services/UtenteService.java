@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 import com.app.dto.ModificaUtenteDTO;
 import com.app.dto.RegistrazioneDto;
-import com.app.entities.Posizione;
+//import com.app.entities.Posizione;
 import com.app.entities.Preferenze;
 import com.app.entities.Utente;
 import com.app.repositories.MessaggioRepository;
@@ -40,9 +40,9 @@ public class UtenteService {
 	public Utente createUtente(RegistrazioneDto registrazioneDto) {
 			String encodedPassword = this.passwordEncoder.encode(registrazioneDto.getPassword().trim());
 			Utente nuovoUtente = new Utente(registrazioneDto.getEmail(), encodedPassword);
-			Preferenze preferenze = new Preferenze();	
+			Preferenze preferenze = new Preferenze(nuovoUtente);	
 			
-			preferenze.setUtente(nuovoUtente);
+			//preferenze.setUtente(nuovoUtente);
 			
 			utenteRepository.save(nuovoUtente);
 			preferenceRepository.save(preferenze);

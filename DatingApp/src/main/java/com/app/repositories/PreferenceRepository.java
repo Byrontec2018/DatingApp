@@ -1,12 +1,12 @@
 package com.app.repositories;
 
-import java.util.List;
+//import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.app.entities.Preferenze;
-import com.app.entities.Utente;
+//import com.app.entities.Utente;
 
 public interface PreferenceRepository extends JpaRepository<Preferenze, Long> {
 	

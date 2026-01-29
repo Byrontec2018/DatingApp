@@ -26,7 +26,7 @@ public class Abbonamento {
 		@JsonIgnore
 	    private Utente utente;
 		
-		@Column(name = "tipo", columnDefinition = "varchar(255)")
+		@Column(name = "tipo")
 		private String tipo;
 		
 		@Column(name = "data_inizio", nullable = false)
@@ -38,10 +38,10 @@ public class Abbonamento {
 		@Column(name = "attivo", nullable = false)
 		private boolean attivo;
 		
-		@Column(name = "metodo_pagamento", columnDefinition = "varchar(255)")
+		@Column(name = "metodo_pagamento")
 		private String metodoPagamento;
 				
-		@Column(name = "stripe_subscription_id", columnDefinition = "varchar(255)")
+		@Column(name = "stripe_subscription_id")
 		private String stripeSubscriptionId;
 		
 		

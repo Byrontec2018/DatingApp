@@ -11,7 +11,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.MapsId;
+//import jakarta.persistence.MapsId;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Max;
@@ -40,12 +40,12 @@ public class Preferenze {
 	
 	@Min(18)
     @Max(100)
-	@Column(name = "eta_minima", columnDefinition = "int(3)")
+	@Column(name = "eta_minima")
 	private Integer minEta;
 
 	@Min(18)
     @Max(100)
-	@Column(name = "eta_massima", columnDefinition = "int(3)")
+	@Column(name = "eta_massima")
 	private Integer maxEta;
 
 	@Column(name = "distanza_massima")
@@ -58,9 +58,9 @@ public class Preferenze {
 	public Preferenze(Utente utente) {
 		this.utente = utente;
 		this.generePreferito = null;
-		this.minEta = null;
-		this.maxEta = null;
-		this.distanzaMax =null;
+		this.minEta = 18;
+		this.maxEta = 100;
+		this.distanzaMax = null;
 	}
 	
 	public Preferenze(Utente utente, Genere generePreferito, Integer minEta, Integer maxEta, Double distanzaMax) {

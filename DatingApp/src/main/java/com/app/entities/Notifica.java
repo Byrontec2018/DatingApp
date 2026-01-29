@@ -17,19 +17,19 @@ public class Notifica {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;	
 	
-	@Column(name = "utente_id", columnDefinition= "bigint(11)")
+	@Column(name = "utente_id")
 	private Long utenteId;
 	
-	@Column(name = "tipo", columnDefinition="varchar(100)") // nuovo match, nuovo messaggio, super_like ricevuto
+	@Column(name = "tipo") // nuovo match, nuovo messaggio, super_like ricevuto
 	private String tipo;
 	
-	@Column(name = "contenuto", columnDefinition="varchar(255)")
+	@Column(name = "contenuto")
 	private String contenuto;
 	
-	@Column(name = "timestamp", columnDefinition="datetime")
+	@Column(name = "timestamp")
 	private LocalDateTime timestamp;
 	
-	@Column(name = "letta", columnDefinition="boolean")
+	@Column(name = "letta")
 	private boolean letta;
 	
 	public Notifica() {

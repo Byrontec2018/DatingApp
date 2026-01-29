@@ -150,7 +150,7 @@ Authentication authentication = SecurityContextHolder.getContext().getAuthentica
     			return ResponseEntity.badRequest().body("Foto gia presente");
     		}
     		//aggiungi foto
-    		Utente utente = photoService.addPhoto(currentUserEmail, fotoAggiunta);
+    		//Utente utente = photoService.addPhoto(currentUserEmail, fotoAggiunta);
     		return ResponseEntity.ok("foto aggiunta con successo " + fotoAggiunta);
     	} catch (Exception e) {
     		return ResponseEntity.badRequest().body("Errore durante l'aggiunta dell'immagine profilo");

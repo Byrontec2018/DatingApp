@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import com.app.entities.Utente;
-import com.app.enums.Genere;
+//import com.app.enums.Genere;
 
 public interface UtenteRepository extends JpaRepository<Utente, Long>{
 

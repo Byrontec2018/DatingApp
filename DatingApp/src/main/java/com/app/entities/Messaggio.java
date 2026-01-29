@@ -20,13 +20,13 @@ public class Messaggio {
 	@JoinColumn(name = "mittente_id", nullable = false)
 	private Utente mittente;
 	
-	@Column(name = "contenuto", columnDefinition = "varchar(255)")
+	@Column(name = "contenuto")
 	private String contenuto;
 	
-	@Column(name = "timestamp", columnDefinition = "datetime")
+	@Column(name = "timestamp")
 	private LocalDateTime timestamp;
 	
-	@Column(name = "stato", columnDefinition = "varchar(255)")
+	@Column(name = "stato")
 	private String stato;
 		
 
