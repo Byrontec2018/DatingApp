@@ -2,7 +2,7 @@ package com.app.dto;
 
 import java.time.LocalDate;
 
-import com.app.entities.Posizione;
+//import com.app.entities.Posizione;
 import com.app.enums.Genere;
 
 public class ModificaUtenteDTO {

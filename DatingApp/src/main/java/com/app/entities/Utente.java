@@ -59,19 +59,19 @@ public class Utente {
 	@Embedded
 	private Posizione posizione;
 	
-	@Column(name = "foto_profilo", columnDefinition = "varchar(255)")
+	@Column(name = "foto_profilo")
 	private String fotoProfilo;
 	
-	@Column(name = "tipo_account", nullable = false, columnDefinition = "varchar(255)")
+	@Column(name = "tipo_account", nullable = false)
 	private String tipoAccount;
 	
 	@Column(name = "data_registrazione", nullable = false)
 	private LocalDate dataRegistrazione;
 	
-	@Column(name = "notifiche_attive", columnDefinition = "bit(1)")
+	@Column(name = "notifiche_attive")
 	private Boolean notificheAttive;
 	
-	@Column(name = "device_token", columnDefinition = "varchar(255)")
+	@Column(name = "device_token")
 	private String deviceToken;
 
 	@Column(name = "primo_accesso", nullable = false)

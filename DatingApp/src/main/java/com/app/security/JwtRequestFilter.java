@@ -2,7 +2,7 @@ package com.app.security;
 
 import com.app.services.CustomUserDetailsService;
 
-import io.jsonwebtoken.Claims;
+//import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.MalformedJwtException;
 import io.jsonwebtoken.security.SignatureException;

@@ -28,10 +28,10 @@ public class Swipe {
 	@JoinColumn(name = "utente_target_id", nullable = false)
 	private Utente utenteTargetSwipe;
 	
-	@Column(name = "tipo", nullable = false, columnDefinition = "varchar(255)")
+	@Column(name = "tipo", nullable = false)
 	private String tipo;
 	
-	@Column(name = "timestamp", nullable = false, columnDefinition = "datetime")
+	@Column(name = "timestamp", nullable = false)
 	private LocalDateTime timestamp;
 	
 	public Swipe() {

@@ -19,10 +19,10 @@ public class Report {
 	@JoinColumn(name = "segnalante_id", nullable = false)
 	private Utente segnalante;
 		
-	@Column(name = "motivo", columnDefinition = "Text")
+	@Column(name = "motivo")
 	private String motivo;	
 	
-	@Column(name = "timestamp", columnDefinition = "datetime")
+	@Column(name = "timestamp")
 	private LocalDateTime timestamp;
 		
 	public Report() {
